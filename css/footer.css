@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: 'sans-serif','helvetica','Roboto';
+}
+#logo-img
+{
+    width: 100px;
+    display: flex;
+    
+}
+#logoContainer {
+    display: flex;
+    align-items:flex-start;
+    
+}
+#clg-detailContainer a {
+    text-decoration: none;
+    display: flex;
+    letter-spacing: 1px;
+    margin-top:2px ;
+    color: black;
+
+}
+#clg-detailContainer {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    
+}
+.logos
+{
+    width: 120px;
+    height: 35px;
+}
+#logos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+#copy-right{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px ;
+    letter-spacing: 2px;
+}
+#clg-name{
+    position: relative;
+    top: 25px;
+}
+#clg-detailContainer h4{
+    color: darkblue;
+    margin-bottom: 7px;
+}
+#clg-name h2 {
+    color: blue;
+    margin-bottom: 0px;
+}
+#clg-name h6 {
+    color: red;
+    letter-spacing: 0.6px;
+}
+#aboutUs, #depEnroll, #touchADD{
+  width: 100px;
+}
+footer {
+    width: 100%;  
+    height: 100rem;
+    background-color:#CFCFCF;
+}
+#clg-detailContainer > #aboutUs,
+#clg-detailContainer > #depEnroll,
+#clg-detailContainer > #touchADD,
+#clg-detailContainer > #logoContainer
+{
+    margin-top: 100px;
+}

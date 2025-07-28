@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: 'sans-serif','helvetica','Roboto';
+}
+#logo-img{
+    width: 50px;
+}
+#clg-name { 
+    color: rgb(0, 0, 255);   
+}
+#eng-name {
+    padding-top: 4px;
+    letter-spacing: 0.6px;
+    color: red;
+}
+#logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#linkContainer
+{
+    display: flex;
+    gap: 40px;
+    right: 100px;
+
+
+}
+#admissionButton {
+    background-color:darkblue;
+    color: white;
+    border-radius: 5px;
+}
+#headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

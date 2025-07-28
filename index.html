@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>HOME PAGE</title>
+    </head>
+    <body>
+        <!-- -------HEADER--------- -->
+         <div id="one"></div>
+         <script>
+            load("header.html");
+            function load(url)
+            {
+                req = new XMLHttpRequest();
+                req.open("GET",url,false);
+                req.send(null);
+                document.getElementById("one").innerHTML = req.responseText;
+            }
+        </script>
+        <!-- --------HOME PAGE-------- -->
+         <div id="two"></div>
+         <script>
+            load("home.html")
+            function load(url)
+            {
+                req = new XMLHttpRequest();
+                req.open("GET",url,false)
+                req.send(null)
+                document.getElementById("two").innerHTML = req.responseText;
+            }
+         </script>
+         <!-- --------FOOTER PAGE-------- -->
+         <div id="three"></div>
+         <script>
+            load("footer.html")
+            function load(url)
+            {
+                req = new XMLHttpRequest()
+                req.open("GET",url,false)
+                req.send(null)
+                document.getElementById("three").innerHTML = req.responseText;
+            }
+         </script>
+        </body>
+</html>

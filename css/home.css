@@ -1,0 +1,122 @@
+
+  *{
+        margin: 0;
+        font-family: 'sans-serif','helvetica','Roboto';
+    }
+    #clg-photo {
+        width: 90%;
+        margin: 20px auto;
+        display: block; 
+    }
+    #mainContainer  h1{
+        color: darkblue;
+        text-align: center;
+        
+    }
+    #mainContainer p{
+      text-align: center;
+      width: 50%;
+      margin: 20px auto;
+     
+    
+      }
+      #campus-details > a > img{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border: 0.2px solid whitesmoke;
+      }
+      #campus-details{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+       }
+       #companyContainer{
+        background-color:#CFCFCF;
+        width: 100%;
+        height: 250px;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+       }
+       #companyStmv{
+        display: inline;
+        background-color: darkblue;
+        color: white;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 23px;
+       }
+       #companyNamesContainer{
+        display: inline;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+    }
+       .company-names
+       {
+        width: 100px;
+        height: 50px;
+        object-fit: cover;
+       }
+       #eventContainer > img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border: 0.2px solid whitesmoke;
+       } 
+      #eventContainer {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 70px 0;
+        margin-left: 120px;
+      }
+      #eventContainer  h1,h2,p,hr {
+        margin-bottom: 20px;
+      }
+      #eventContainer button {
+        color: white;
+        background-color: lightcoral;
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        border-color: white;
+        margin-bottom: 150px;
+       
+      }
+      #eventContainer h1 {
+        color: darkblue;
+      }
+      #eventContainer h2{
+        width: 480px;
+        color: burlywood;
+      }
+      #span{
+        margin-left: 60px;
+      }
+
+     .span1 {
+        margin-left:300px ;
+     }
+     .span2 {
+        margin-left: 350px ;
+     }
+     .span3 {
+        margin-left: 310px ;
+     }
+     .span4 {
+        margin-left:290px  ;
+     }
+     .span5 {
+        margin-left:300px  ;
+     } 
+     .details{
+        color: darkblue;
+        font-weight: 900;
+     }
+     
