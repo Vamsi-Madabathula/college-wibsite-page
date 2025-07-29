@@ -119,4 +119,16 @@
         color: darkblue;
         font-weight: 900;
      }
-     
+      @media (max-width:480px) {
+    
+     #campus-details {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+     #eventContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+      }
